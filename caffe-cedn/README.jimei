@@ -1,0 +1,9 @@
+To train the generative CNN for chair images, please follow the steps below.
+1. modify the Makefile.config according to your system.
+2. compile caffe and matcaffe.
+3. download and unzip the chair images by running data/chairs/get_chairs.sh
+4. open MATLAB in the caffe-share root and run init_matcaffe.m
+5. run crop_chairs.m and prepare_chairs_64x64x3_crop.m for preparing the data
+6. run matcaffe_generator_image_mask_conv_rgb_crop.m to train the model or,
+7. test the pre-trained model by matcaffe_test_generator_image_mask_conv_rgb_crop.m
+--Jimei Yang
