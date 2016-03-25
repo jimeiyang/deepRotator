@@ -6,7 +6,8 @@ Please follow the instructions below to run the code.
 2. Compile the caffe and matcaffe in "./caffe-cedn/" (Makefile.config needs to be adjusted according to your machine).
 3. Train the model by running the matlab scripts "train_chair_rotator_base.m" and then "train_chair_rotator_curriculum.m".
 
-The single-view chair rotation demo can be found in the Youtube: <a href="https://www.youtube.com/watch?v=3dPwiWnDoNY" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+The single-view chair rotation demo can be found in the Youtube: 
+<a href="https://www.youtube.com/watch?v=3dPwiWnDoNY" target="_blank"><img src="https://github.com/jimeiyang/deepRotator/blob/master/demo_img.png" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 Please contact "jimyang@adobe.com" if any questions. 
