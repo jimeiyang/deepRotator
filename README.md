@@ -10,6 +10,6 @@ Please follow the instructions below to run the code.
 The single-view chair rotation demo can be found in the Youtube: 
 
 <a href="https://www.youtube.com/watch?v=3dPwiWnDoNY" target="_blank"><img src="https://github.com/jimeiyang/deepRotator/blob/master/demo_img.png" 
-alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="640" height="360" border="10" /></a>
 
 Please contact "jimyang@adobe.com" if any questions. 
