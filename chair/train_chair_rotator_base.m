@@ -34,18 +34,18 @@ end
 num_pairs = length(in_idx_train);   
 
 % init caffe network (spews logging info)
-model_specs = 'base_3x3conv';
+model_specs = 'base';
 use_gpu = true;
 model_file = sprintf('%s.prototxt', model_specs);
 solver_file = sprintf('%s_solver.prototxt', model_specs);
-param = struct('base_lr', 0.0001, 'stepsize', 200000, 'weight_decay', 0.001, 'solver_type', 3);
+param = struct('base_lr', 0.00001, 'stepsize', 200000, 'weight_decay', 0.001, 'solver_type', 3);
 make_solver_file(solver_file, model_file, param);
 init_matcaffe(solver_file, use_gpu, 0);
 batch_size = 100;
 
 path_to_results = 'results/';
 if ~isdir(path_to_results), mkdir(path_to_results); end
-fid_train = fopen([path_to_results sprintf('chairs_rotator_%s_lr1e-4_train_errors.txt',model_specs)],'w');
+fid_train = fopen([path_to_results sprintf('chairs_rotator_%s_train_errors.txt',model_specs)],'w');
 
 for n = 1:500
     loss_train_image = 0;
