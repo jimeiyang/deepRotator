@@ -3,7 +3,7 @@ This is the code for NIPS15 paper [Weakly-supervised disentangling with recurren
 
 Please follow the instructions below to run the code.
 
-1. Download the preprocessed chair data from "https://dl.dropboxusercontent.com/u/2885859/chairs_data_64x64x3_crop.mat", and save it to the "./chair/data/" folder.
+1. Download the preprocessed chair data from "https://www.dropbox.com/s/q2bih317hyhbpm5/chairs_data_64x64x3_crop.mat?dl=0", and save it to the "./chair/data/" folder.
 2. Compile the caffe and matcaffe in "./caffe-cedn/" (Makefile.config needs to be adjusted according to your machine).
 3. Train the model by running the matlab scripts "train_chair_rotator_base.m" and then "train_chair_rotator_curriculum.m".
 4. The pre-trained RNN16 model for chair rotation can be downloaded from "https://www.dropbox.com/s/h7iiei53u2g1vvn/rnn_t16_model.tar.gz?dl=0".
