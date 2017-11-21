@@ -1,5 +1,5 @@
 # The training protocol buffer definition
-train_net: "rnn_t4_finetuning.prototxt"
+train_net: "rnn_t8_finetuning.prototxt"
 # The base learning rate, momentum and the weight decay of the network.
 base_lr: 0.000001
 weight_decay: 0.001000
@@ -13,7 +13,7 @@ display: 200
 max_iter: 600000
 # snapshot intermediate results
 snapshot: 10000
-snapshot_prefix: "rnn_t4_finetuning."
+snapshot_prefix: "rnn_t8_finetuning."
 # solver mode: 0 for CPU and 1 for GPU
 solver_mode: 1
 solver_type: 3
